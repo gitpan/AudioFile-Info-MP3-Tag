@@ -1,3 +1,20 @@
+#
+# $Id: Tag.pm,v 1.3 2005/03/01 13:50:47 dave Exp $
+#
+
+=head1 NAME
+
+AudioFile::Info::MP3::Tag - Perl extension to get info from MP3 files.
+
+=head1 DESCRIPTION
+
+This is a plugin for AudioFile::Info which uses MP3::Tag to get or set
+data about MP3 files.
+
+See L<AudioFile::Info> for more details.
+
+=cut
+
 package AudioFile::Info::MP3::Tag;
 
 use 5.006;
@@ -7,7 +24,7 @@ use Carp;
 
 use MP3::Tag;
 
-our $VERSION = sprintf "%d.%02d", '$Revision: 1.2 $ ' =~ /(\d+)\.(\d+)/;
+our $VERSION = sprintf "%d.%02d", '$Revision: 1.3 $ ' =~ /(\d+)\.(\d+)/;
 
 my %data = (artist => ['artist', 'TPE1'],
             title  => ['song', 'TIT2'],
@@ -70,17 +87,6 @@ sub AUTOLOAD {
 
 1;
 __END__
-
-=head1 NAME
-
-AudioFile::Info::MP3::Tag - Perl extension to get info from MP3 files.
-
-=head1 DESCRIPTION
-
-This is a plugin for AudioFile::Info which uses MP3::Tag to get or set
-data about MP3 files.
-
-See L<AudioFile::Info> for more details.
 
 =head1 AUTHOR
 
