@@ -1,5 +1,5 @@
 #
-# $Id: Tag.pm,v 1.3 2005/03/01 13:50:47 dave Exp $
+# $Id: Tag.pm,v 1.4 2006/06/15 20:36:20 dave Exp $
 #
 
 =head1 NAME
@@ -24,7 +24,7 @@ use Carp;
 
 use MP3::Tag;
 
-our $VERSION = sprintf "%d.%02d", '$Revision: 1.3 $ ' =~ /(\d+)\.(\d+)/;
+our $VERSION = sprintf "%d.%02d", '$Revision: 1.4 $ ' =~ /(\d+)\.(\d+)/;
 
 my %data = (artist => ['artist', 'TPE1'],
             title  => ['song', 'TIT2'],
@@ -87,6 +87,13 @@ sub AUTOLOAD {
 
 1;
 __END__
+
+=head1 METHODS
+
+=head2 new
+
+Creates a new object of class AudioFile::Info::MP3::Tag. Usually called
+by AudioFile::Info::new.
 
 =head1 AUTHOR
 

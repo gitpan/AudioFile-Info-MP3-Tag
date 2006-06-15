@@ -1,10 +1,12 @@
---- #YAML:1.0
+---
 name: AudioFile-Info-MP3-Tag
-version: 1.03
+version: 1.04
 author:
-  - Dave Cross, E<lt>dave@dave.org.ukE<gt>
+  - 'Dave Cross, E<lt>dave@dave.org.ukE<gt>'
 abstract: Perl extension to get info from MP3 files.
 license: perl
+resources:
+  license: http://dev.perl.org/licenses/
 requires:
   AudioFile::Info: 0
   MP3::Tag: 0
@@ -16,5 +18,8 @@ provides:
     file: lib/AudioFile/Info/Build.pm
   AudioFile::Info::MP3::Tag:
     file: lib/AudioFile/Info/MP3/Tag.pm
-    version: 1.03
-generated_by: Module::Build version 0.2607
+    version: 1.04
+generated_by: Module::Build version 0.2801
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
