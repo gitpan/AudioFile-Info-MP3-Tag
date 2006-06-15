@@ -1,5 +1,5 @@
 #
-# $Id: Tag.pm,v 1.4 2006/06/15 20:36:20 dave Exp $
+# $Id: Tag.pm,v 1.5 2006/06/15 20:40:50 dave Exp $
 #
 
 =head1 NAME
@@ -24,7 +24,7 @@ use Carp;
 
 use MP3::Tag;
 
-our $VERSION = sprintf "%d.%02d", '$Revision: 1.4 $ ' =~ /(\d+)\.(\d+)/;
+our $VERSION = sprintf "%d.%02d", '$Revision: 1.5 $ ' =~ /(\d+)\.(\d+)/;
 
 my %data = (artist => ['artist', 'TPE1'],
             title  => ['song', 'TIT2'],
@@ -101,7 +101,7 @@ Dave Cross, E<lt>dave@dave.org.ukE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2003 by Dave Cross
+Copyright 2003-2006 by Dave Cross
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself. 

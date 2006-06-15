@@ -1,6 +1,6 @@
 ---
 name: AudioFile-Info-MP3-Tag
-version: 1.04
+version: 1.05
 author:
   - 'Dave Cross, E<lt>dave@dave.org.ukE<gt>'
 abstract: Perl extension to get info from MP3 files.
@@ -18,7 +18,7 @@ provides:
     file: lib/AudioFile/Info/Build.pm
   AudioFile::Info::MP3::Tag:
     file: lib/AudioFile/Info/MP3/Tag.pm
-    version: 1.04
+    version: 1.05
 generated_by: Module::Build version 0.2801
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
