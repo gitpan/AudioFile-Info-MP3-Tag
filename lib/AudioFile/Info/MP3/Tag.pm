@@ -1,5 +1,5 @@
 #
-# $Id: Tag.pm,v 1.5 2006/06/15 20:40:50 dave Exp $
+# $Id$
 #
 
 =head1 NAME
@@ -24,7 +24,7 @@ use Carp;
 
 use MP3::Tag;
 
-our $VERSION = sprintf "%d.%02d", '$Revision: 1.5 $ ' =~ /(\d+)\.(\d+)/;
+our $VERSION = '1.06';
 
 my %data = (artist => ['artist', 'TPE1'],
             title  => ['song', 'TIT2'],
